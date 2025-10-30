@@ -42,7 +42,7 @@ export class DefaultAppConfig implements AppConfig {
   // NOTE: these must be 'synced' with the 'dspace.ui.url' setting in your backend's local.cfg.
   ui: UIServerConfig = {
     ssl: false,
-    host: 'localhost',
+    host: '194.163.184.143',
     port: 4000,
     // NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
     nameSpace: '/',
@@ -61,7 +61,7 @@ export class DefaultAppConfig implements AppConfig {
   // NOTE: these must be 'synced' with the 'dspace.server.url' setting in your backend's local.cfg.
   rest: ServerConfig = {
     ssl: false,
-    host: 'localhost',
+    host: '194.163.184.143',
     port: 8080,
     // NOTE: Space is capitalized because 'namespace' is a reserved string in TypeScript
     nameSpace: '/',
