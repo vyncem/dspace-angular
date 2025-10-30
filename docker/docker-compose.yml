@@ -20,7 +20,7 @@ services:
       DSPACE_UI_PORT: '4000'
       DSPACE_UI_NAMESPACE: /
       DSPACE_REST_SSL: 'false'
-      DSPACE_REST_HOST: localhost
+      DSPACE_REST_HOST: 194.163.184.143
       DSPACE_REST_PORT: 8080
       DSPACE_REST_NAMESPACE: /server
     image: "${DOCKER_REGISTRY:-docker.io}/${DOCKER_OWNER:-dspace}/dspace-angular:${DSPACE_VER:-latest}"
